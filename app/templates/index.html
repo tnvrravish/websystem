@@ -6,12 +6,18 @@
     {% block head %}
         <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}"/>
         <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
-
         <title>{% block title %}{% endblock %}This is {{ name }} Website</title>
     {% endblock %}
 
 </head>
 <body>
-My name is: {{ name }}
+    <div id="main-div">
+        <h1><em>Sample WEB page</em></h1>
+        <hr>
+        <p class="red">Lorem ipsum dolor sit amet, <span class="bold">consectetur adipiscing elit</span>. Vivamus quis tincidunt neque, a congue nisl. Integer augue orci, efficitur ac luctus et, eleifend et justo. Nam tortor lectus, pretium a posuere viverra, dignissim eget ante. Nullam tempor, nisl sit amet vulputate tempus, justo nunc luctus ipsum, ut fermentum tellus massa et nibh. Duis aliquet nisl vel ornare semper. Suspendisse mollis viverra felis, sit amet ornare felis scelerisque vitae. Curabitur mollis pharetra sapien. Ut ultricies ex quis ornare eleifend. Cras interdum hendrerit felis, porta sagittis dui. Quisque elit nisi, ornare non turpis et, luctus interdum mauris. Fusce nulla turpis, volutpat eget pulvinar at, sollicitudin id augue. Cras rutrum, elit eget interdum volutpat, dolor felis aliquet lacus, eu consectetur magna ex at ipsum. Fusce turpis nulla, faucibus sed ullamcorper at, dignissim tempus felis. Ut lacinia orci quis euismod varius. Aliquam id enim sit amet dolor molestie volutpat. Maecenas euismod turpis tempus diam cursus, vitae suscipit massa luctus.</p>
+        <p class="blue">Sed nisl neque, pharetra condimentum purus a, fermentum ultrices arcu. Praesent dapibus commodo consectetur. Vivamus consectetur turpis ex, sit amet efficitur mauris pellentesque eu. Maecenas a placerat enim, id dapibus orci. Donec porta fringilla finibus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse potenti. Cras at euismod augue. Proin volutpat odio magna, sit amet condimentum turpis consectetur a. Fusce maximus facilisis velit, in condimentum ipsum. Curabitur eu commodo augue, non vehicula diam. Curabitur vel mollis erat. Morbi imperdiet nibh sed sem pharetra, ut tincidunt nibh tincidunt. Praesent at orci lorem. Duis condimentum maximus purus, quis malesuada est pellentesque sed.</p>
+        <p class="green">Fusce dictum pellentesque pellentesque. Nulla tempor ultrices aliquam. Duis id egestas nunc, sed mollis enim. Proin posuere ultrices purus, at pretium dui volutpat in. Vestibulum interdum quis odio a efficitur. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam finibus ex nec tellus venenatis, vitae interdum odio egestas. Sed non velit sed erat maximus gravida eget ut dui. Nam a consequat ipsum. Etiam eget gravida nisi. Praesent volutpat est in ullamcorper mattis.
+        </p>
+    </div>
 </body>
 </html>
